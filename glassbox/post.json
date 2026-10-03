@@ -1,0 +1,126 @@
+{
+  "slug": "digitalwatchclear",
+  "box": 137,
+  "question": "How does a digital watch work?",
+  "url": "https://glassbox.how/e/digitalwatchclear/",
+  "app": "https://glassbox.how/digitalwatchclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From a crystal that melted twice in 1888 to a ten-dollar watch that keeps time for seven years on one coin cell.\n\n1888: A substance with two melting points\n1968: RCA shows the liquid crystal display\n1970: A watch with no moving parts\n1970: The twisted nematic cell\n1972: The Pulsar goes on sale for $2,100\n1973: Six digits that never switch off\n\nThe full story, with 32 moments, sources and charts: glassbox.how/e/digitalwatchclear/history (link in bio)\n\nThen play with how it works: glassbox.how/digitalwatchclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #digitalwatch #watch #lcd #liquidcrystal #sevensegmentdisplay #counters #history",
+      "youtube": {
+        "title": "The history of the digital watch in 45 seconds #shorts",
+        "description": "From a crystal that melted twice in 1888 to a ten-dollar watch that keeps time for seven years on one coin cell.\n\n1888 · A substance with two melting points (Friedrich Reinitzer)\n1968 · RCA shows the liquid crystal display (RCA)\n1970 · A watch with no moving parts (Hamilton Watch Company and Electro/Data)\n1970 · The twisted nematic cell (Martin Schadt and Wolfgang Helfrich; James Fergason)\n1972 · The Pulsar goes on sale for $2,100 (Hamilton Watch Company)\n1973 · Six digits that never switch off (Seiko (Suwa Seikosha))\n\n▶ Full history: https://glassbox.how/e/digitalwatchclear/history/\n▶ Play with it: https://glassbox.how/e/digitalwatchclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does a digital watch work?\n\nNo gears, no hands, no ticking. A sliver of quartz, a row of counters and a sandwich of liquid crystal that twists light keep the time on one coin cell for seven years. Take a digital watch apart in 3D and count the seconds yourself.\n\n→ A digital watch has no gears and no hands: just a chip, a crystal, a coin cell and a piece of glass.\n→ Take it apart: display glass, two rubber zebra strips, one chip under black epoxy, a 3 volt cell and a piezo beeper.\n→ A quartz crystal hums 32,768 times a second. Fifteen flip-flops halve that beat down to exactly one tick a second.\n→ One pulse a second feeds a row of counters. At 59 the seconds roll over and pass a carry to the minutes.\n→ The date counter checks the month, and the year. In 2028, 28 February is followed by the 29th.\n\nPlay with it yourself. It's free and open source: glassbox.how/digitalwatchclear (link in bio)\n\nBox No. 137 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #digitalwatch #watch #lcd #liquidcrystal #sevensegmentdisplay #counters #quartzcrystal #timekeeping #threejs",
+    "carousel": "Swipe through: How does a digital watch work?\n\nNo gears, no hands, no ticking. A sliver of quartz, a row of counters and a sandwich of liquid crystal that twists light keep the time on one coin cell for seven years. Take a digital watch apart in 3D and count the seconds yourself.\n\nSave this for later, then play with the interactive version at glassbox.how/digitalwatchclear (link in bio).\n\nBox No. 137 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #digitalwatch #watch #lcd #liquidcrystal #sevensegmentdisplay #counters",
+    "youtube": {
+      "title": "How does a digital watch work? #shorts",
+      "description": "No gears, no hands, no ticking. A sliver of quartz, a row of counters and a sandwich of liquid crystal that twists light keep the time on one coin cell for seven years. Take a digital watch apart in 3D and count the seconds yourself.\n\n▶ Play with it: https://glassbox.how/e/digitalwatchclear/\n⌘ Source code (MIT): https://github.com/bdeeps/digitalwatchclear\n\nBox No. 137 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does a digital watch work? (interactive explainer)",
+      "description": "No gears, no hands, no ticking. A sliver of quartz, a row of counters and a sandwich of liquid crystal that twists light keep the time on one coin cell for seven years. Take a digital watch apart in 3D and count the seconds yourself.\n\n▶ Play with the interactive version: https://glassbox.how/e/digitalwatchclear/\n⌘ Source code (MIT): https://github.com/bdeeps/digitalwatchclear\n\nIn this video:\n• A chip, a crystal, a cell and a piece of glass. Inside the resin case is a small module: a circuit board with one chip under a blob of black epoxy, a quartz crystal in a tiny can, and a 3 volt coin cell.\n• One tick a second. The quartz crystal is cut like a tuning fork and rings 32,768 times a second.\n• A row of counters. The chip does not know the time.\n• Seven bars make every digit. Each digit is kept as four bits.\n• A sandwich that twists light. A segment is liquid crystal between two polarisers set at right angles, over a reflector.\n• Four jobs on a millionth of an amp. The Mode button steps the chip from clock to alarm to stopwatch to setting, and the other buttons change meaning in each.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does a digital watch work?\n\nNo gears, no hands, no ticking.\n\nPlay with it: https://glassbox.how/e/digitalwatchclear/",
+    "linkedin": "How does a digital watch work?\n\nNo gears, no hands, no ticking. A sliver of quartz, a row of counters and a sandwich of liquid crystal that twists light keep the time on one coin cell for seven years. Take a digital watch apart in 3D and count the seconds yourself.\n\n1. A chip, a crystal, a cell and a piece of glass\n2. One tick a second\n3. A row of counters\n4. Seven bars make every digit\n5. A sandwich that twists light\n6. Four jobs on a millionth of an amp\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 137 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/digitalwatchclear/\nCode: https://github.com/bdeeps/digitalwatchclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-03T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-03T08:21:09.128Z"
+}

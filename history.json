@@ -1,0 +1,902 @@
+{
+  "title": "The history of the digital watch",
+  "tagline": "From a crystal that melted twice in 1888 to a ten-dollar watch that keeps time for seven years on one coin cell.",
+  "intro": "A digital watch needed three inventions to meet: a clock with no moving parts, a way to draw numbers with a few bars, and a display that could stay on for years without draining a battery. The first two were ready by 1970, and the red LED watches that used them had to stay dark until you pressed a button. The third came from an odd liquid first noticed in 1888. Once liquid crystal displays worked, prices fell from $2,100 to under $10 in five years, and the digital watch became the cheapest accurate clock ever made.",
+  "eras": [
+    {
+      "id": "before",
+      "name": "Digits and strange liquids",
+      "from": 1880,
+      "to": 1960,
+      "color": "#c49bff",
+      "summary": "Watchmakers show the time as numbers on jumping discs, engineers draw digits with bars of light, and scientists puzzle over a liquid that behaves like a crystal."
+    },
+    {
+      "id": "lab",
+      "name": "Liquid crystals wake up",
+      "from": 1960,
+      "to": 1970,
+      "color": "#ffb547",
+      "summary": "RCA turns liquid crystals into a display, and quartz and silicon chips make a clock with almost no moving parts."
+    },
+    {
+      "id": "race",
+      "name": "The race to the wrist",
+      "from": 1970,
+      "to": 1980,
+      "color": "#ff7a59",
+      "summary": "LED watches arrive as gold luxuries, the twisted nematic display lets digits stay on, and a price war takes the digital watch from $2,100 to under $10."
+    },
+    {
+      "id": "everywhere",
+      "name": "A watch for everyone",
+      "from": 1980,
+      "to": 1994,
+      "color": "#5ce1a9",
+      "summary": "Japanese makers add calculators, alarms, memory and shock-proof cases, and the cheap LCD watch reaches almost every wrist on Earth."
+    },
+    {
+      "id": "smart",
+      "name": "Computers on the wrist",
+      "from": 1994,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "Watches start to talk to computers and phones. The smartwatch takes over the shop window, and the plain digital watch carries on unchanged."
+    }
+  ],
+  "events": [
+    {
+      "year": 1883,
+      "date": "1883",
+      "era": "before",
+      "art": "gear",
+      "title": "Numbers instead of hands",
+      "who": "Josef Pallweber",
+      "where": "Salzburg, Austria",
+      "country": "Austria",
+      "text": "The Austrian engineer Josef Pallweber designed a pocket watch that showed the time as numerals in two small windows. The hours and minutes were printed on discs that jumped into place. IWC and Cortébert were selling watches with his mechanism by 1885.",
+      "why": "The idea of reading the time as digits is a century older than the electronics that made it cheap.",
+      "sources": [
+        7,
+        0
+      ]
+    },
+    {
+      "year": 1888,
+      "date": "1888",
+      "era": "before",
+      "art": "flask",
+      "key": true,
+      "title": "A substance with two melting points",
+      "who": "Friedrich Reinitzer",
+      "where": "Prague (then Austria-Hungary)",
+      "country": "Czech Republic",
+      "text": "Reinitzer, a botanist studying compounds made from cholesterol, found one that seemed to melt twice: at 145.5 °C into a cloudy liquid, then at 178.5 °C into a clear one. On 14 March 1888 he wrote to the physicist Otto Lehmann for help. Lehmann studied the cloudy state under a microscope and in 1904 named it liquid crystal.",
+      "why": "It was the discovery of the material every digital watch display is made of.",
+      "box": "twist",
+      "sources": [
+        5,
+        1,
+        35
+      ]
+    },
+    {
+      "year": 1908,
+      "date": "1903–1910",
+      "era": "before",
+      "art": "word",
+      "title": "Digits built from bars",
+      "who": "Carl Kinsley, Frank W. Wood",
+      "where": "United States",
+      "country": "United States",
+      "text": "In 1903 Carl Kinsley filed a US patent for printing telegraph letters and numbers out of separate segments. In 1908 F. W. Wood patented an eight-segment numeral display, and by 1910 a seven-segment display of light bulbs was at work on a power-plant signal panel.",
+      "why": "The seven bars on a watch face were worked out long before there was a watch to put them on.",
+      "box": "segments",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1911,
+      "date": "1911",
+      "era": "before",
+      "art": "lens",
+      "title": "Light follows a twisted layer",
+      "who": "Charles Mauguin",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "The French mineralogist Charles Mauguin squeezed liquid crystals into thin layers between glass plates and studied how polarised light passed through them. He showed that when the layer is twisted, the light's direction of vibration turns with it.",
+      "why": "That guiding of light by a twist is exactly what a watch display uses sixty years later.",
+      "box": "twist",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1927,
+      "date": "1927",
+      "era": "before",
+      "art": "plate",
+      "title": "An electric field turns the molecules",
+      "who": "Vsevolod Frederiks",
+      "where": "Leningrad, Soviet Union",
+      "country": "Russia",
+      "text": "The physicist Vsevolod Frederiks found that above a certain threshold, an electric or magnetic field swings the molecules of a liquid crystal round. The effect is still called the Fréedericksz transition. In 1936 the Marconi company in Britain patented a liquid crystal light valve, but no practical display followed.",
+      "why": "A threshold voltage that switches the molecules is what lets a chip turn a segment on and off.",
+      "box": "twist",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 1964,
+      "date": "1964",
+      "era": "lab",
+      "art": "pixels",
+      "title": "A liquid that scatters light on command",
+      "who": "George Heilmeier",
+      "where": "RCA Laboratories, Princeton, USA",
+      "country": "United States",
+      "text": "At RCA, George Heilmeier found that a current through a thin layer of liquid crystal churns it from clear to milky white. He called it the dynamic scattering mode and used it to build the first working liquid crystal displays.",
+      "why": "It proved that a flat, low-voltage display could be made from a liquid.",
+      "sources": [
+        8,
+        1
+      ]
+    },
+    {
+      "year": 1968,
+      "date": "28 May 1968",
+      "era": "lab",
+      "art": "pixels",
+      "key": true,
+      "title": "RCA shows the liquid crystal display",
+      "who": "RCA",
+      "where": "New York, USA",
+      "country": "United States",
+      "text": "RCA called a press conference at its New York headquarters and showed Heilmeier's displays to the world, talking of a television thin enough to hang on a wall. RCA itself did little with the idea, but laboratories in Japan, Switzerland and the United States took notice.",
+      "why": "The announcement started the worldwide race to put liquid crystals into products.",
+      "sources": [
+        9,
+        8
+      ]
+    },
+    {
+      "year": 1969,
+      "date": "25 December 1969",
+      "era": "lab",
+      "art": "tuningfork",
+      "title": "The first quartz wristwatch",
+      "who": "Seiko",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Seiko put the Astron on sale in Tokyo: the first wristwatch timed by a quartz crystal. It still had hands and a tiny motor, but its heart was a crystal and a divider circuit, the same time base a digital watch would use.",
+      "why": "Once the beat came from electronics, the hands and gears were the only mechanical parts left to remove.",
+      "box": "tick",
+      "sources": [
+        33
+      ]
+    },
+    {
+      "year": 1970,
+      "date": "6 May 1970",
+      "era": "race",
+      "art": "digital",
+      "key": true,
+      "title": "A watch with no moving parts",
+      "who": "Hamilton Watch Company and Electro/Data",
+      "where": "New York, USA",
+      "country": "United States",
+      "text": "Hamilton announced the Pulsar, a prototype wristwatch with a quartz crystal, a chip and red LED digits, and nothing that moved. The Smithsonian credits George Thiess and colleagues at Electro/Data in Texas with building it; other accounts name the Bulgarian-born engineer Peter Petroff as its inventor.",
+      "why": "It was the first all-electronic digital watch anyone had seen.",
+      "box": "anatomy",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1970,
+      "date": "4 December 1970",
+      "era": "race",
+      "art": "plate",
+      "key": true,
+      "title": "The twisted nematic cell",
+      "who": "Martin Schadt and Wolfgang Helfrich; James Fergason",
+      "where": "Basel, Switzerland and Kent, Ohio, USA",
+      "country": "Switzerland",
+      "text": "At Hoffmann-La Roche, Schadt and Helfrich filed a Swiss patent for a display in which liquid crystal twists light a quarter turn between two polarisers, and published it in February 1971. In Ohio, James Fergason filed a US patent for the same idea in April 1971, saying he had found it in 1969. The dispute lasted years and was settled out of court.",
+      "why": "This is the display in almost every digital watch: it switches with a volt or two and almost no current.",
+      "box": "twist",
+      "sources": [
+        2,
+        10,
+        36
+      ]
+    },
+    {
+      "year": 1972,
+      "date": "4 April 1972",
+      "era": "race",
+      "art": "digital",
+      "key": true,
+      "title": "The Pulsar goes on sale for $2,100",
+      "who": "Hamilton Watch Company",
+      "where": "Lancaster, Pennsylvania, USA",
+      "country": "United States",
+      "text": "The first Pulsar reached the shops in an 18-carat gold case at $2,100, about the price of a small car. Its LEDs used so much power that the face stayed dark until you pressed a button. A later model appeared on James Bond's wrist in Live and Let Die in 1973.",
+      "why": "It made the digital watch a luxury object, and showed the problem LCDs would solve: a display that could not stay on.",
+      "box": "modes",
+      "sources": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1972,
+      "date": "1972",
+      "era": "race",
+      "art": "chip",
+      "title": "The first liquid crystal watches",
+      "who": "Microma, Optel, Gruen and others",
+      "where": "United States",
+      "country": "United States",
+      "text": "Several American firms raced to sell a watch whose digits stayed on all the time. Microma showed an LCD watch in October 1972, three months after the chip maker Intel bought the company for $15 million. Early four-digit LCD watches such as the Gruen Teletime are dated to 1972 as well, though supplies were short: one account says Fergason's company filled its first Gruen orders in 1973.",
+      "why": "These were the first watches you could read without pressing a button.",
+      "box": "twist",
+      "sources": [
+        12,
+        0,
+        11
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "1973",
+      "era": "race",
+      "art": "molecule",
+      "title": "A liquid crystal that lasts",
+      "who": "George Gray",
+      "where": "University of Hull, England",
+      "country": "United Kingdom",
+      "text": "Early liquid crystals broke down in damp air or only worked when warm. George Gray's team at Hull made a new family, the cyanobiphenyls, that stayed stable and liquid crystalline at room temperature.",
+      "why": "Stable materials turned the twisted nematic display from a laboratory trick into something a factory could make by the million.",
+      "box": "twist",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "October 1973",
+      "era": "race",
+      "art": "digital",
+      "key": true,
+      "title": "Six digits that never switch off",
+      "who": "Seiko (Suwa Seikosha)",
+      "where": "Suwa, Japan",
+      "country": "Japan",
+      "text": "Seiko's 06LC was the first watch with a six-digit liquid crystal display, showing hours, minutes and seconds all the time. It used the new field-effect (twisted nematic) display, had a small lamp for the dark, and set the pattern every LCD watch still follows.",
+      "why": "It is the direct ancestor of the watch in this box.",
+      "box": "segments",
+      "sources": [
+        14,
+        15,
+        0
+      ]
+    },
+    {
+      "year": 1974,
+      "date": "1974",
+      "era": "race",
+      "art": "digital",
+      "key": true,
+      "title": "A watch that knows the months",
+      "who": "Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Casio, a calculator maker, entered the watch business with the Casiotron. It showed the date as well as the time and adjusted by itself for long and short months, and later versions handled leap years. It cost 58,000 yen, close to a graduate's monthly starting salary in Japan.",
+      "why": "Casio's motto was that time is just adding seconds: the calendar became one more counter.",
+      "box": "counting",
+      "sources": [
+        16,
+        32
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "1975",
+      "era": "race",
+      "art": "calculator",
+      "title": "Stopwatches and calculators on the wrist",
+      "who": "Seiko; Pulsar",
+      "where": "Japan and the United States",
+      "country": "Japan",
+      "text": "Seiko's 0634 was the first digital watch with a built-in stopwatch, showing that one chip could do several jobs. In the same year Pulsar sold an LED watch with a tiny calculator keyboard.",
+      "why": "Extra functions cost almost nothing once the watch was a chip: they were just more counters and more modes.",
+      "box": "modes",
+      "sources": [
+        15,
+        21
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "September 1975",
+      "era": "race",
+      "art": "battery",
+      "title": "The Black Watch disaster",
+      "who": "Sinclair Radionics",
+      "where": "Cambridge, England",
+      "country": "United Kingdom",
+      "text": "Clive Sinclair's Black Watch sold for £24.95 built or £17.95 as a kit. Its batteries lasted about ten days, static electricity could kill its chip, and its accuracy changed with temperature. So many came back that the company lost £355,000 in 1975–76.",
+      "why": "It showed how hard low-power design is: an LED watch lives or dies by its battery.",
+      "box": "modes",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1976,
+      "date": "1976–1977",
+      "era": "race",
+      "art": "chip",
+      "key": true,
+      "title": "The $10 digital watch",
+      "who": "Texas Instruments",
+      "where": "Dallas, USA",
+      "country": "United States",
+      "text": "Texas Instruments used its own chips and plastic cases to sell LED watches for $19.95 in 1976 and $9.95 in May 1977. (Some sources date these prices a year earlier.) The price war drove many makers out, and TI itself left the watch business a few years later.",
+      "why": "In five years the digital watch fell from the price of a car to the price of a meal.",
+      "sources": [
+        19,
+        0
+      ]
+    },
+    {
+      "year": 1977,
+      "date": "1977",
+      "era": "race",
+      "art": "calculator",
+      "title": "Hewlett-Packard's wrist computer",
+      "who": "Hewlett-Packard",
+      "where": "United States",
+      "country": "United States",
+      "text": "The HP-01 had 28 tiny keys, pressed with a stylus hidden in the strap, and could do sums with times and dates. It cost $450 to $850 and needed three batteries. HP stopped making it in 1979. In the same year Intel sold Microma, at a loss Gordon Moore called his '$15 million watch'.",
+      "why": "Chip makers learned that building the chip was the easy part of selling a watch.",
+      "sources": [
+        20,
+        12
+      ]
+    },
+    {
+      "year": 1980,
+      "date": "1980",
+      "era": "everywhere",
+      "art": "calculator",
+      "title": "The calculator watch for everyone",
+      "who": "Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Casio's C-80 put a working eight-digit calculator with finger-sized keys into an affordable LCD watch. Calculator watches became a schoolyard craze of the 1980s, and the CA-53W of 1988 is still on sale.",
+      "why": "It joined the two gadgets, calculator and watch, that share the same chip, display and logic.",
+      "box": "segments",
+      "sources": [
+        17,
+        34,
+        21
+      ]
+    },
+    {
+      "year": 1982,
+      "date": "1982",
+      "era": "everywhere",
+      "art": "tv",
+      "title": "A television on the wrist",
+      "who": "Seiko",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Seiko's TV Watch had a tiny liquid crystal screen that showed live television, with the receiver carried in a pocket. Guinness World Records listed it as the smallest TV set. In 1984 Seiko followed with a watch that ran programs written in BASIC.",
+      "why": "The watch display grew from seven bars to a grid of dots, the path that leads to today's screens.",
+      "sources": [
+        15,
+        0
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "April 1983",
+      "era": "everywhere",
+      "art": "ball",
+      "key": true,
+      "title": "The watch you cannot break",
+      "who": "Kikuo Ibe, Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "After dropping and breaking the watch his father gave him, the Casio engineer Kikuo Ibe set out to build one that would survive a 10 metre fall, 10 bar of water pressure and 10 years on one battery. After about 200 prototypes, a bouncing rubber ball gave him the answer: let the module float inside the case. The G-Shock DW-5000C went on sale in April 1983.",
+      "why": "With no gears to jar loose, a digital watch could be made tougher than any mechanical one.",
+      "box": "anatomy",
+      "sources": [
+        22
+      ]
+    },
+    {
+      "year": 1984,
+      "date": "1984",
+      "era": "everywhere",
+      "art": "word",
+      "title": "Phone numbers in a watch",
+      "who": "Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "The Casio Databank CD-40 could store ten names and phone numbers. Casio says it sold six million in five years.",
+      "why": "A watch chip with a little memory became the first pocket organiser many people owned.",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "1980s",
+      "era": "everywhere",
+      "art": "building",
+      "title": "India's digital watch boom",
+      "who": "HMT and the grey market",
+      "where": "Bengaluru and across India",
+      "country": "India",
+      "text": "In the 1980s cheap digital watches from Japan and Hong Kong reached India largely through travellers and grey-market traders, and were often sold on footpaths and at fairs. The state-owned maker HMT, whose strength was mechanical watches, began making its own quartz watches in 1986, including digital and combination models.",
+      "why": "For many Indian children of the 1980s and 90s, a digital watch with a light and an alarm was their first piece of electronics.",
+      "sources": [
+        31
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "June 1989",
+      "era": "everywhere",
+      "art": "digital",
+      "key": true,
+      "title": "The Casio F-91W",
+      "who": "Ryūsuke Moriai, Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Casio launched a plain resin watch with a stopwatch, an alarm, a lamp and a seven-year battery. It weighs 21 grams and keeps time to within 30 seconds a month. It has no year counter, so it gives February 28 days every year. It is still made, almost unchanged.",
+      "why": "It may be the most common watch ever built, and it is the model for the one in this box.",
+      "box": "counting",
+      "sources": [
+        23,
+        24
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "1992",
+      "era": "everywhere",
+      "art": "night",
+      "title": "A face that glows",
+      "who": "Timex",
+      "where": "Middlebury, Connecticut, USA",
+      "country": "United States",
+      "text": "Timex put an electroluminescent sheet behind the dial of its Ironman watches and called it Indiglo: press a button and the whole face glows blue-green. After the 1993 World Trade Center bombing, a newspaper reported that an office worker led a group down 40 dark flights of stairs by the light of his watch.",
+      "why": "It replaced the dim corner lamp, the weak point of every LCD watch at night.",
+      "box": "twist",
+      "sources": [
+        25,
+        26
+      ]
+    },
+    {
+      "year": 1994,
+      "date": "1994",
+      "era": "smart",
+      "art": "computer",
+      "title": "A watch that reads your computer screen",
+      "who": "Timex and Microsoft",
+      "where": "United States",
+      "country": "United States",
+      "text": "The Timex Datalink took appointments and phone numbers from a PC with no cable. You held the watch up to the monitor, which flashed bars of light that a sensor on the watch read. Astronauts later wore it in space.",
+      "why": "It was a step from a watch that counts to a watch that talks to other machines.",
+      "sources": [
+        27
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "2008",
+      "era": "smart",
+      "art": "trophy",
+      "title": "Shared credit at last",
+      "who": "Martin Schadt, Wolfgang Helfrich, James Fergason",
+      "where": "United States",
+      "country": "United States",
+      "text": "The IEEE gave its Jun-ichi Nishizawa Medal jointly to the three men who had fought over the twisted nematic patent in the 1970s.",
+      "why": "By then their display was in billions of watches, calculators and screens.",
+      "sources": [
+        10,
+        2
+      ]
+    },
+    {
+      "year": 2010,
+      "date": "2010",
+      "era": "smart",
+      "art": "waterdrop",
+      "title": "What '50 m' really means",
+      "who": "International Organization for Standardization",
+      "where": "Geneva, Switzerland",
+      "country": "Switzerland",
+      "text": "The standard ISO 22810 replaced an older one and set out how water-resistant watches are tested. The depth on the case back is a test pressure, not a diving depth: a watch marked 30 m is meant for splashes and rain, and one marked 100 m for swimming.",
+      "why": "It cleared up one of the most misread labels on any product.",
+      "box": "modes",
+      "sources": [
+        28
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "23 January 2013",
+      "era": "smart",
+      "art": "phone",
+      "key": true,
+      "title": "Pebble: the crowd-funded smartwatch",
+      "who": "Pebble Technology",
+      "where": "Palo Alto, USA",
+      "country": "United States",
+      "text": "Pebble raised $10.3 million from 68,929 backers on Kickstarter in 2012 and began shipping in January 2013. Its always-on, low-power liquid crystal screen let the battery last about a week while showing messages from a phone.",
+      "why": "It showed people wanted a watch that was also a screen for their phone.",
+      "sources": [
+        29,
+        30
+      ]
+    },
+    {
+      "year": 2015,
+      "date": "24 April 2015",
+      "era": "smart",
+      "art": "phone",
+      "title": "The Apple Watch",
+      "who": "Apple",
+      "where": "Cupertino, USA",
+      "country": "United States",
+      "text": "Apple's first watch went on sale with a colour touch screen, a heart sensor and its own apps. It is a small computer and needs charging about every day, where a plain digital watch runs for years on one coin cell.",
+      "why": "The smartwatch became the best-selling kind of watch, and the cheap LCD watch carried on beside it.",
+      "box": "modes",
+      "sources": [
+        30
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "2024",
+      "era": "smart",
+      "art": "digital",
+      "title": "The Casiotron returns",
+      "who": "Casio",
+      "where": "Tokyo, Japan",
+      "country": "Japan",
+      "text": "Fifty years after its first watch, Casio re-created the Casiotron in a numbered edition of 4,000, in the old case but with solar charging, radio time signals and a phone link.",
+      "why": "Half a century on, the idea is unchanged: a crystal, a row of counters and a display.",
+      "sources": [
+        32,
+        16
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Liquid crystal observed",
+      "value": "1888",
+      "who": "Friedrich Reinitzer, Prague"
+    },
+    {
+      "label": "First all-electronic digital watch shown",
+      "value": "6 May 1970",
+      "who": "Hamilton Pulsar, USA"
+    },
+    {
+      "label": "Twisted nematic display patent filed",
+      "value": "4 December 1970",
+      "who": "Schadt and Helfrich, Switzerland (Fergason claimed 1969)"
+    },
+    {
+      "label": "First digital watch on sale",
+      "value": "4 April 1972",
+      "who": "Hamilton Pulsar, $2,100"
+    },
+    {
+      "label": "First six-digit LCD watch",
+      "value": "October 1973",
+      "who": "Seiko 06LC, Japan"
+    },
+    {
+      "label": "First digital watch with an automatic calendar",
+      "value": "1974",
+      "who": "Casiotron, Japan"
+    },
+    {
+      "label": "First LED watch under $10",
+      "value": "May 1977",
+      "who": "Texas Instruments, USA"
+    }
+  ],
+  "people": [
+    {
+      "name": "Friedrich Reinitzer",
+      "life": "1857 – 1927",
+      "role": "Botanist and chemist",
+      "from": "Austria-Hungary",
+      "note": "Saw a substance melt twice and so discovered liquid crystals."
+    },
+    {
+      "name": "George Heilmeier",
+      "life": "1936 – 2014",
+      "role": "Electrical engineer",
+      "from": "USA",
+      "note": "Built the first working liquid crystal displays at RCA."
+    },
+    {
+      "name": "Martin Schadt",
+      "life": "born 1938",
+      "role": "Physicist",
+      "from": "Switzerland",
+      "note": "With Wolfgang Helfrich, patented the twisted nematic display in 1970."
+    },
+    {
+      "name": "Wolfgang Helfrich",
+      "life": "1932 – 2025",
+      "role": "Physicist",
+      "from": "Germany",
+      "note": "Brought the idea of a twisted cell from RCA to Hoffmann-La Roche."
+    },
+    {
+      "name": "James Fergason",
+      "life": "1934 – 2008",
+      "role": "Inventor",
+      "from": "USA",
+      "note": "Claimed the twisted nematic cell from 1969 and supplied displays for early LCD watches."
+    },
+    {
+      "name": "George Gray",
+      "life": "1926 – 2013",
+      "role": "Chemist",
+      "from": "Scotland",
+      "note": "Made the stable liquid crystals that let displays be mass-produced."
+    },
+    {
+      "name": "Kikuo Ibe",
+      "life": "born 1952 (as commonly given)",
+      "role": "Engineer at Casio",
+      "from": "Japan",
+      "note": "Designed the G-Shock after about 200 prototypes."
+    },
+    {
+      "name": "Ryūsuke Moriai",
+      "life": "living",
+      "role": "Designer at Casio",
+      "from": "Japan",
+      "note": "Designed the F-91W, his first watch for the company."
+    }
+  ],
+  "series": [
+    {
+      "id": "price",
+      "title": "The price of a new digital watch",
+      "unit": "US dollars",
+      "log": true,
+      "after": "race",
+      "caption": "The cheapest digital watch on sale in the United States fell about two-hundred-fold in five years. Sources differ by a year on the Texas Instruments prices.",
+      "points": [
+        {
+          "year": 1972,
+          "value": 2100,
+          "label": "Hamilton Pulsar, 18-carat gold LED watch: $2,100"
+        },
+        {
+          "year": 1976,
+          "value": 19.95,
+          "label": "Texas Instruments plastic LED watch: $19.95"
+        },
+        {
+          "year": 1977,
+          "value": 9.95,
+          "label": "Texas Instruments LED watch: $9.95"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "Liquid crystals were discovered in 1888 by a botanist who noticed that a cholesterol compound melted twice.",
+    "The first digital watch cost $2,100 and showed nothing at all until you pressed a button.",
+    "32,768 is 2 multiplied by itself 15 times, which is why fifteen flip-flops turn a watch crystal's hum into one tick a second.",
+    "A Casio F-91W has no year counter: it must be corrected by hand every 29 February.",
+    "Intel once owned a watch company. Gordon Moore kept its watch as a reminder never to sell to consumers again."
+  ],
+  "sources": [
+    {
+      "title": "Watch",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Watch"
+    },
+    {
+      "title": "Liquid-crystal display",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liquid-crystal_display"
+    },
+    {
+      "title": "Twisted nematic field effect",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Twisted_nematic_field_effect"
+    },
+    {
+      "title": "Pulsar (watch)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pulsar_(watch)"
+    },
+    {
+      "title": "Pulsar Electronic Wristwatch",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://www.si.edu/object/pulsar-electronic-wristwatch%3Anmah_1173538"
+    },
+    {
+      "title": "Friedrich Reinitzer",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Friedrich_Reinitzer"
+    },
+    {
+      "title": "Seven-segment display",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Seven-segment_display"
+    },
+    {
+      "title": "Digital clock",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Digital_clock"
+    },
+    {
+      "title": "George H. Heilmeier",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/George_H._Heilmeier"
+    },
+    {
+      "title": "RCA Liquid Crystal Press Conference, 1968 May 28",
+      "publisher": "Hagley Museum and Library",
+      "url": "https://findingaids.hagley.org/repositories/3/archival_objects/248373"
+    },
+    {
+      "title": "James Fergason",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/James_Fergason"
+    },
+    {
+      "title": "Time's New Face: Liquid Crystals In Your Wristwatch",
+      "publisher": "Invention & Technology",
+      "url": "https://www.inventionandtech.com/node/86269"
+    },
+    {
+      "title": "Gordon Moore's $15 Million Watch: The Story of Intel and Microma",
+      "publisher": "Grail Watch",
+      "url": "https://grail-watch.com/2023/03/26/gordon-moores-15-million-watch-the-story-of-intel-and-microma/"
+    },
+    {
+      "title": "George William Gray",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/George_William_Gray"
+    },
+    {
+      "title": "Seiko Quartz LC V.F.A. 06LC",
+      "publisher": "Seiko Epson",
+      "url": "https://corporate-origin.epson.biz/en/about/history/milestone-products/1973-10-06lc.html"
+    },
+    {
+      "title": "Digital quartz watches",
+      "publisher": "The Seiko Museum Ginza",
+      "url": "https://museum.seiko.co.jp/en/knowledge/Quartz04/"
+    },
+    {
+      "title": "Casio watch heritage: the 1970s",
+      "publisher": "Casio",
+      "url": "https://www.casio.com/intl/watches/Heritage/1970s/"
+    },
+    {
+      "title": "Casio watch heritage: the 1980s",
+      "publisher": "Casio",
+      "url": "https://www.casio.com/intl/watches/Heritage/1980s/"
+    },
+    {
+      "title": "Black Watch (wristwatch)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Black_Watch_(wristwatch)"
+    },
+    {
+      "title": "Texas Instruments history: watches",
+      "publisher": "Facele TI museum",
+      "url": "https://www.facele.eu/index.php/computer/31-ti-museum/watches"
+    },
+    {
+      "title": "HP-01",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/HP-01"
+    },
+    {
+      "title": "Calculator watch",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Calculator_watch"
+    },
+    {
+      "title": "G-Shock",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/G-Shock"
+    },
+    {
+      "title": "Casio F-91W",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Casio_F-91W"
+    },
+    {
+      "title": "Digital wrist watch, made by Casio, 1997",
+      "publisher": "Science Museum Group",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co425529/digital-wrist-watch-made-by-casio-1997"
+    },
+    {
+      "title": "Indiglo",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Indiglo"
+    },
+    {
+      "title": "Timex watches produce gleam that endures",
+      "publisher": "Deseret News",
+      "url": "https://www.deseret.com/1994/2/13/19092118/timex-watches-produce-gleam-that-endures"
+    },
+    {
+      "title": "Timex Datalink",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Timex_Datalink"
+    },
+    {
+      "title": "Water Resistant mark",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Water_Resistant_mark"
+    },
+    {
+      "title": "Pebble (watch)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pebble_(watch)"
+    },
+    {
+      "title": "Smartwatch",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Smartwatch"
+    },
+    {
+      "title": "HMT Watches: The Rise and Fall of India's Watchmaking Titan",
+      "publisher": "SJX Watches",
+      "url": "https://watchesbysjx.com/2016/07/hmt-watches-the-rise-and-fall-of-indias-watchmaking-titan.html"
+    },
+    {
+      "title": "Re-creating the 1974 Casiotron",
+      "publisher": "Casio",
+      "url": "https://www.shopcasio.shriro.com.au/blogs/casio-vintage/casiotron-50-years-of-casio-watches"
+    },
+    {
+      "title": "Astron (wristwatch)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Astron_(wristwatch)"
+    },
+    {
+      "title": "Casio CA-53W",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Casio_CA-53W"
+    },
+    {
+      "title": "Liquid crystal",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Liquid_crystal"
+    },
+    {
+      "title": "Wolfgang Helfrich",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wolfgang_Helfrich"
+    }
+  ]
+}

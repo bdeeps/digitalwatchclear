@@ -1,0 +1,105 @@
+{
+  "slug": "digitalwatchclear",
+  "box": 137,
+  "date": "2026-10-12",
+  "title": "DigitalWatchClear",
+  "question": "How does a digital watch work?",
+  "hook": "No gears, no hands, no ticking. A sliver of quartz, a row of counters and a sandwich of liquid crystal that twists light keep the time on one coin cell for seven years. Take a digital watch apart in 3D and count the seconds yourself.",
+  "thumbText": "HOW A DIGITAL WATCH WORKS",
+  "field": "machines",
+  "minutes": 14,
+  "tags": [
+    "digital watch",
+    "watch",
+    "LCD",
+    "liquid crystal",
+    "seven-segment display",
+    "counters",
+    "quartz crystal",
+    "timekeeping",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A chip, a crystal, a cell and a piece of glass",
+      "text": "Inside the resin case is a small module: a circuit board with one chip under a blob of black epoxy, a quartz crystal in a tiny can, and a 3 volt coin cell. The display glass has no wires. Two rubber zebra strips squeezed between board and glass carry every signal, and a piezo disc on the steel back makes the beep."
+    },
+    {
+      "title": "One tick a second",
+      "text": "The quartz crystal is cut like a tuning fork and rings 32,768 times a second. That is 2 multiplied by itself 15 times, so a chain of fifteen flip-flops, each halving the beat, ends at exactly one pulse a second. Faster beats along the chain feed the beeper and the display."
+    },
+    {
+      "title": "A row of counters",
+      "text": "The chip does not know the time. It counts. Seconds run 0 to 59, roll over to 0 and pass a carry to the minutes; minutes carry to hours, hours to the date. The date counter checks the month for its limit, and a watch that stores the year gives February 29 days in a leap year."
+    },
+    {
+      "title": "Seven bars make every digit",
+      "text": "Each digit is kept as four bits. A decoder turns them into seven on or off signals, one for each bar of the figure of eight. A watch face can have 80 bars, so they share wires: three back electrodes take turns, and 30 chip pins do the work of 81."
+    },
+    {
+      "title": "A sandwich that twists light",
+      "text": "A segment is liquid crystal between two polarisers set at right angles, over a reflector. With no voltage, the molecules form a quarter-turn twist that guides room light through both polarisers and back out: clear. About 3 volts stands the molecules up, the twist is lost, the light is blocked: dark. It makes no light of its own."
+    },
+    {
+      "title": "Four jobs on a millionth of an amp",
+      "text": "The Mode button steps the chip from clock to alarm to stopwatch to setting, and the other buttons change meaning in each. An alarm is a comparator and a 4,096 Hz tone into the piezo disc. The whole watch averages about 1.5 microamps, so one coin cell lasts seven years or more. A smartwatch uses over ten thousand times as much."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Quartz crystal",
+      "def": "A tiny tuning fork of quartz that the chip keeps ringing at a very steady 32,768 swings a second."
+    },
+    {
+      "term": "Divider",
+      "def": "A chain of flip-flops that each halve the frequency; fifteen of them turn 32,768 Hz into one pulse a second."
+    },
+    {
+      "term": "Counter",
+      "def": "A circuit that adds one for every pulse, rolls over at its limit and sends a carry to the next counter."
+    },
+    {
+      "term": "BCD",
+      "def": "Binary-coded decimal: each decimal digit stored on its own as four bits, from 0000 to 1001."
+    },
+    {
+      "term": "Seven-segment display",
+      "def": "A digit drawn with seven bars, named a to g. Different sets of bars make 0 to 9."
+    },
+    {
+      "term": "Liquid crystal",
+      "def": "A liquid whose rod-shaped molecules share a direction and can be turned by a small voltage."
+    },
+    {
+      "term": "Twisted nematic",
+      "def": "The LCD type where the molecules make a quarter-turn twist that guides light between two crossed polarisers."
+    },
+    {
+      "term": "Multiplexing",
+      "def": "Driving many segments with few wires by letting two to four back electrodes take turns, many times a second."
+    },
+    {
+      "term": "State machine",
+      "def": "A circuit that is always in one of a few modes and steps between them when a button is pressed."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "digitalwatchclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
